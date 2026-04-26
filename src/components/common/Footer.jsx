@@ -182,7 +182,7 @@ export default function Footer() {
           Copyright © {new Date().getFullYear()} The Orbit Malakand. All Rights
           Reserved. |{" "}
           <span className="text-gray-400">
-            Developed by Creativehands — 0349-5468097
+            Developed by Pir Adnan & Nisar Shalmani
           </span>
         </p>
       </div>
