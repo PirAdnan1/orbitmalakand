@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff0000;
+  --primary-dark: #cc0000;
+  --primary-light: #ff3333;
+  --primary-pale: #fff0f0;
+  --text-dark: #1a1a1a;
+  --text-gray: #555555;
+  --bg-light: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded font-semibold transition-all duration-300 hover:bg-primary-dark hover:shadow-lg inline-block;
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded font-semibold transition-all duration-300 hover:bg-primary hover:text-white inline-block;
+  }
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold font-heading text-gray-800 mb-4;
+  }
+  .section-subheading {
+    @apply text-base text-gray-500 mb-8 max-w-2xl;
+  }
+  .red-line {
+    @apply w-16 h-1 bg-primary mb-6 block;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet-active {
+  background: var(--primary) !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary) !important;
+}
+
+/* Navbar dropdown animation */
+.dropdown-menu {
+  transition: all 0.3s ease;
+  transform-origin: top;
+}
+
+/* Counter animation */
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Floating chat widget */
+.chat-widget {
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* Hero slider */
+.hero-slide {
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 3px;
+}
