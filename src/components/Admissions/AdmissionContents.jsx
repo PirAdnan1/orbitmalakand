@@ -16,7 +16,7 @@ function AdmissionHero() {
             Join our growing family of learners. We welcome students at all levels — from Playgroup to BS programs and IT certifications.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/admissions/school" className="btn-primary px-8 py-4 text-base">
+            <Link href="/admissions/school-admission-form" className="btn-primary px-8 py-4 text-base">
               School Admissions (Play Group – Grade 10)
             </Link>
             <Link href="/admissions/college" className="btn-outline px-8 py-4 text-base">
