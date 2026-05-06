@@ -68,7 +68,7 @@ export default function PreSchool() {
               ))}
             </div>
 
-            <Link href="/academics/programs/pre-primary" className="btn-primary">
+            <Link href="/admissions/school-admission-form" className="btn-primary">
               Enroll Now
             </Link>
           </div>

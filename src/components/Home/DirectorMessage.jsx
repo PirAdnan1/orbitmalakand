@@ -6,9 +6,9 @@ import { FaQuoteLeft } from "react-icons/fa";
 const PRINCIPAL =
   "https://theorbitmalakand.com/wp-content/uploads/2024/12/prin.png";
 
-export default function PrincipalMessage() {
+export default function DirectorMessage() {
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white relative overflow-hidden mt-10">
+    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary/5 rounded-full translate-y-1/2 -translate-x-1/2" />
