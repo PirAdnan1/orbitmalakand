@@ -6,9 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaBars, FaTimes, FaChevronDown, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
-// assets - logo from WordPress
-const LOGO =
-  "https://theorbitmalakand.com/wp-content/uploads/2025/01/orbit-logo-250x46.png";
+// assets
+  import OrbitLogo from "@/assets/{images,icons}/Orbit_logo.png"
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -239,7 +238,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center py-3">
             <Image
-              src={LOGO}
+              src={OrbitLogo}
               alt="The Orbit Malakand"
               width={200}
               height={37}

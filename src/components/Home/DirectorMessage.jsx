@@ -21,7 +21,7 @@ export default function DirectorMessage() {
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden border-4 border-primary shadow-2xl">
                 <Image
                   src={PRINCIPAL}
-                  alt="Principal Mr. Tahir Khan"
+                  alt="Director Mr. Noor Ul Wahab"
                   width={320}
                   height={320}
                   className="w-full h-full object-cover object-top"
@@ -29,7 +29,7 @@ export default function DirectorMessage() {
               </div>
               {/* Badge */}
               <div className="absolute -bottom-4 -right-4 bg-primary text-white px-4 py-3 rounded-xl shadow-lg">
-                <p className="font-black text-sm">Principal</p>
+                <p className="font-black text-sm">Director</p>
                 <p className="text-xs text-white/80">The Orbit Malakand</p>
               </div>
             </div>
@@ -41,31 +41,32 @@ export default function DirectorMessage() {
               From The Desk of
             </span>
             <h2 className="text-3xl md:text-4xl font-black font-heading mt-2 mb-2">
-              Mr. Tahir Khan
+              Mr. Noor Ul Wahab
             </h2>
             <p className="text-gray-400 mb-6 text-sm">
-              Principal, The Orbit School & College Malakand
+              Director, The Orbit School & College Malakand
             </p>
             <FaQuoteLeft className="text-primary text-4xl mb-4 opacity-80" />
             <p className="text-gray-300 leading-relaxed mb-4 text-base">
-              At The Orbit School & College Malakand, we recognize the profound
-              importance of education in addressing the pressing challenges of
-              today&apos;s world. In an era of rapid change, globalization, and
-              technological advancements, we understand that education is the
-              key to equipping our students with the knowledge, skills, and
-              values necessary to navigate and thrive in an increasingly complex
-              and interconnected world.
+              At The Orbit School & College Malakand, we believe education is far more than
+              the transfer of knowledge—it is the foundation upon which futures are built,
+              character is shaped, and aspirations are transformed into achievement. In a
+              world defined by innovation, global connectivity, and constant change, our
+              mission is to empower every student with the confidence, wisdom, and skills
+              required to lead with purpose and excel in an ever-evolving society.
             </p>
+
             <p className="text-gray-300 leading-relaxed text-base">
-              We are deeply committed to creating a holistic learning environment
-              where students not only grow intellectually but also develop
-              emotionally and socially, preparing them to face the challenges
-              that lie ahead. Our approach fosters critical thinking, creativity,
-              and meaningful dialogue.
+              We are committed to nurturing a dynamic and inclusive learning environment
+              where academic excellence is harmoniously balanced with personal growth,
+              creativity, and strong moral values. At Orbit, we inspire our students to
+              think critically, act responsibly, and embrace lifelong learning—preparing
+              them not only to meet the challenges of tomorrow, but to become the leaders
+              who shape it.
             </p>
             <div className="mt-8 pt-6 border-t border-gray-700">
               <p className="text-primary font-bold italic">
-                — Mr. Tahir Khan (Principal)
+                — Mr. Noor Ul Wahab (Director)
               </p>
             </div>
           </div>
